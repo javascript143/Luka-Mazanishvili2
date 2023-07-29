@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    box-sizing: border-box;
+}
+.nav ul {
+        display: flex;
+        gap: 3%;
+        margin-left: 37%;
+        margin-top:2% ;
+        font-size: 80%;
+    }
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid;
+}
+.nav ul {
+    list-style-type: none;
+}
+body{
+    background-color: darkslateblue;
+}
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+.container{
+    background-color: deeppink;
+    float: right;
+    height: 25px;
+    width: 40px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.menulogo{
+    height: 3px;
+    width: 30px;
+    background-color: snow;
+}
+
+.menu{
+    width: 50%;
+    height: 93.5vh;
+    background-color: slateblue;
+    padding: 50px;
+    transform: translateX(-500px);
+    transition: 0.5s;
+}
+.menu li{
+    list-style-type: none;
+    border-bottom: 1px solid rgb(130,117,218);
+    padding: 30px 0 ;
+    text-align: center;
+}
+.showmenu{
+    transform: translateX(0);
+}
+.menu li:last-child{
+    border-bottom: none;
+}
+.menu li:first-child a{
+    font-weight: bold;
+}
+.menu li a{
+    color: snow;
+    text-decoration: none;
+    font-size: 20px;
+    transition: font-weight 0.2s;
+}
+.menu li a:hover{
+    font-weight: bold;
+}
+.wrapper{
+    max-width: 1200px;
+}
+.wrapper .carousel{
+    white-space: nowrap;
+}
+.carousel img{
+    height: 340px;
+    object-fit: cover;
+    width: calc(100%/ 3);
+}
+@media screen and (min-width:1000px){
+    .menu{
+        width: 500px;
+    }
+}
+@media screen and (max-width:600px){
+    .menu li a{
+        font-size: 16px;
+    }
+}
+.all{
+    margin-left: 80%;
+    margin-top: 36%;
+    position: absolute;
+    border: 2px solid;
+    padding:10px;
+    background-image: url(/pages/img/e.jpg);
+}
+.all2{
+    border: 2px solid;
+    padding: 10px;
+    width: 30%;
+    margin-left: 37%;
+    margin-top: 15%;
+    position: absolute;
+    background-image: url(/pages/img/a.jpg);
+    
+}
+body{
+    background-image: url(https://www.creativefabrica.com/wp-content/uploads/2020/09/07/Modern-Blue-Web-Site-Background-Graphics-5332399-1.jpg);
+
+}
+    
